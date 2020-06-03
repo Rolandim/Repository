@@ -17,6 +17,6 @@ public class CodingHours {
         float percent = ( (float) oneWeek / avgHours) * 100;
         int percentage = (int) percent;
         System.out.println("One semester a trainee codes for " + codingHours + " hours");
-        System.out.println(percentage + "%");
+        System.out.println(percentage + "% of work hours spent coding!");
     }
 }
